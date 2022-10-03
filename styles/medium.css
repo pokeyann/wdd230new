@@ -1,0 +1,16 @@
+@media (min-width: 32.5em) {
+
+  body {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  header img {
+    float: none;
+  }
+
+}
