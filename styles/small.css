@@ -35,3 +35,7 @@ h1 {
   text-align: center;
   font-family: 'Courier Prime', monospace;
 }
+
+a:link {
+color: blue;
+}
