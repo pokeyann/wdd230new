@@ -11,7 +11,7 @@ try {
 }
 
 /*document.getElementById("currentdate").textContent = new Date().getTime().toLocaleDateString("en-US");*/
-
+/*just keep trying to make all this work and create a change so I can push this again.
 
 //getTime
 //toLocaleTimeString
