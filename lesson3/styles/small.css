@@ -1,3 +1,13 @@
+@charset "UTF-8"; /* not necessary */
+/* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Color Pallette Light Cornflower Blue #8ecae6, Blue Green #219ebc, Prussian Blue #023047, Selective Yellow #ffb703, 
+Tangerine #fb8500, Jet #333333, Davy Grey #5c5c5c, Culutured #f5f5f5, Light Grey #cccccc */
 body {
 	font-size: 16px;
 	font-family: "Sansita", Ubuntu, sans-serif;
@@ -5,7 +15,7 @@ body {
 
 header,
 footer {
-	background-color: #708080;
+	background-color: #5c5c5c;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -23,14 +33,25 @@ footer {
 
 h1 {
 	font-size: 2rem;
+	color: #f5f5f5;
 }
 h2 {
 	padding: .5rem;
-	color: #536878;
+	color: #023047;
+}
+h3 {
+	color: #f5f5f5; 
+}
+h4 {
+	color: #023047;
+}
+p {
+	padding: .5rem;
+	color: #023047;
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #023047;
 	text-align: center;
 	box-shadow: 0 0 30px #333;
 }
@@ -46,7 +67,7 @@ nav div {
 
 nav a {
 	display: block;
-	color: #fff;
+	color: #f5f5f5;
 	text-align: center;
 	padding: 15px;
 	text-decoration: none;
@@ -54,8 +75,36 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #708080;
-	color: yellow;
+	background-color: #cccccc;
+	color: #fb8500;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.85rem;
+}
+
+main .submenu {
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: #eee;
+}
+
+.submenu ul {
+	margin-left: 2rem;
+}
+
+main picture {
+	display: none;
+	margin: 1rem;
+}
+
+main article {
+	margin: 1rem;
 }
 
 footer {
@@ -63,7 +112,12 @@ footer {
 	padding: 1rem;
 	justify-content: space-between;
 	font-weight: 700;
+	color: #f5f5f5;
 }
+
+/***********************************************/
+/** Media Queries for larger views *************/
+/***********************************************/
 
 @media (min-width: 37.5em) {
 	nav {
@@ -86,4 +140,5 @@ footer {
 		font-size: 1.3rem;
 	}
 }
+
 
