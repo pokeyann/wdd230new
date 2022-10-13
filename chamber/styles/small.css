@@ -18,29 +18,48 @@ footer {
 	background-color: #5c5c5c;
 	display: flex;
 	flex-flow: column;
-	align-items: center;
-	justify-content: center;
+	align-items:flex-start;
+	justify-content: space-between;
+	max-width: 960px;
+	margin: 0, auto;
+	border: 2px solid #333333;
 	padding: 10px;
 }
 
-header,
-nav,
-main,
-footer {
-	max-width: 960px;
-	margin: 0 auto;
-	font-family: 'Lexend Deca', sans-serif;
-	font-family: 'Roboto Mono', monospace, serif;
+.logo {
+  display: flex;
+  align-items: center;
+	margin-left: 1rem;
 }
 
-h1 {
+.logo img {
+	width: 100px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1rem;
+}
+
+.headings h1 {
 	font-size: 2rem;
 	color: #f5f5f5;
 }
-h2 {
+
+.headings h2 {
 	padding: .5rem;
 	color: #023047;
 }
+
+.social img {
+	width: 30px;
+	align-items:column;
+	/*justify-content:end; trying to get align to the right of the screen argh!*/
+	margin-right: .5rem;
+}
+
 h3 {
 	color: #f5f5f5; 
 }
@@ -117,10 +136,7 @@ footer {
 	color: #f5f5f5;
 }
 
-.logo {
-  display: inline-block;
-  align-items: left;
-}
+
 
 /***********************************************/
 /** Media Queries for larger views *************/
