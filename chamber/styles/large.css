@@ -1,0 +1,14 @@
+@media (min-width: 48em) {
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 2rem;
+		margin: 0;
+	}
+
+	nav a {
+		font-size: 1.3rem;
+	}
+}
