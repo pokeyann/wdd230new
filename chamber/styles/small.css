@@ -11,6 +11,7 @@ Tangerine #fb8500, Jet #333333, Davy Grey #5c5c5c, Culutured #f5f5f5, Light Grey
 body {
 	font-size: 16px;
 	font-family: 'Lexend Deca', 'Roboto Mono', sans-serif;
+	
 }
 
 header, footer {
@@ -35,8 +36,6 @@ header, footer {
 	height: auto;
 }
 
-
-
 .headings h1 {
 	font-size: 2rem;
 	color: #f5f5f5;
@@ -45,6 +44,10 @@ header, footer {
 .headings h2 {
 	padding: .5rem;
 	color: #023047;
+}
+
+.social {
+
 }
 
 .social img{
@@ -105,16 +108,53 @@ nav a:hover {
 	color: #fb8500;
 }
 
-/*footer {
-	background-color: #5c5c5c;
-	display: flex;
-	flex-flow: column;
-	justify-content: space-between;
-	max-width:960px;
-	margin: 0, auto;
-	border: 2px solid #333333;
-	padding: 10px;
-}*/
+	.event{
+		max-width:960px;
+		padding: 1em;
+		border: 1px solid #333333;	
+	}
+
+	.weather {
+		max-width:960px;
+		padding: 1em;
+		border: 1px solid #333333;	
+	}
+
+	.join {
+		max-width:960px;
+		padding: 1em;
+		border: 1px solid #333333;	
+	}
+
+	.hero {
+		max-width:960px;
+		padding: 1em;
+		border: 1px solid #333333;	
+	}
+
+	.news {
+		max-width:960px;
+		padding: 1em;
+		border: 1px solid #333333;	
+	}
+
+	.spotlight1 {
+		max-width:960px;
+		padding: 1em;
+		border: 1px solid #333333;	
+	}
+
+	.spotlight2 {
+		max-width:960px;
+		padding: 1em;
+		border: 1px solid #333333;	
+	}
+
+	.spotlight3 {
+		max-width:960px;
+		padding: 1em;
+		border: 1px solid #333333;	
+	}
 
 .map iframe {
 	width:200px;
