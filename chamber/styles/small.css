@@ -94,7 +94,7 @@ p {
 
 nav {
 	background-color: #023047;
-	/*text-align: center;*/
+	text-align: center;
 	box-shadow: 0 0 30px #333;
 	width: 100%;
 	display: flex;
