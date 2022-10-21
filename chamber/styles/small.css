@@ -53,13 +53,7 @@ header, footer {
 	color: #023047;
 }
 
-.facebook {
-	display: flex;
-	align-items:flex-end;
-	flex-direction: column;
-}
-
-.instragram {
+.social {
 	display: flex;
 	align-items:flex-end;
 	flex-direction: column;
