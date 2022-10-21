@@ -38,13 +38,13 @@ header, footer {
 	height: auto;
 }
 
-.headings {
+/*.headings {
 	display:flex;
 	justify-content:center;
 	flex-direction:column;
 	align-items:flex-start;
 	margin-left:-364px;
-}
+}*/
 
 .headings h1 {
 	font-size: 2rem;
