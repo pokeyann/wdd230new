@@ -57,6 +57,8 @@ header, footer {
 	display: flex;
 	align-items:flex-end;
 	flex-direction: column;
+	width: 30px;
+	height: auto;
 }
 
 .instragram {
