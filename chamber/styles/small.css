@@ -51,6 +51,9 @@ header, footer {
 .headings h2 {
 	padding: .5rem;
 	color: #023047;
+	justify-content:center;
+	flex-direction:column;
+	align-items:flex-start;
 }
 
 .social {
