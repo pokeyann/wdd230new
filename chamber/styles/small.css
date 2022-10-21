@@ -65,10 +65,10 @@ header, footer {
 	flex-direction: column;
 }
 
-.social img{
+/*.social img{
 	width:30px;
 	height: auto;
-}
+}*/
 
 .date {
 	margin: 0.5rem;
