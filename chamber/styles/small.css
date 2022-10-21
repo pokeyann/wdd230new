@@ -42,8 +42,8 @@ header, footer {
 	font-size: 2rem;
 	color: #f5f5f5;
 	display:flex;
+	justify-content:center;
 	flex-direction:column;
-	align-content:center;
 	align-items:flex-start;
 
 }
