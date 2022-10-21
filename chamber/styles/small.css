@@ -18,10 +18,10 @@ body {
 	
 }
 
-.flex {
+/*.flex {
 	display: flex;
 	flex-flow: row wrap;
-}
+}*/
 
 header, footer {
 	background-color: #5c5c5c;
