@@ -18,7 +18,7 @@ body {
 	
 }
 
-/* flex code not working */
+/* see notes header.... this doesn't make sense */
 header, footer {
 	background-color: #5c5c5c;
 	display: flex;
@@ -39,7 +39,7 @@ header, footer {
 	height: auto;
 }
 
-/* flex code in header not working */
+/* changed from .headings to header and all code is now working???? */
 header {
 	display:flex;
 	justify-content:center;
@@ -51,8 +51,6 @@ header {
 .headings h1 {
 	font-size: 2rem;
 	color: #f5f5f5;
-
-	
 }
 
 .headings h2 {
