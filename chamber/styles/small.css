@@ -57,8 +57,6 @@ header, footer {
 	display: flex;
 	align-items:flex-end;
 	flex-direction: column;
-	width: 30px;
-	height: auto;
 }
 
 .instragram {
@@ -67,10 +65,10 @@ header, footer {
 	flex-direction: column;
 }
 
-/*.social img{
+.facebook img{
 	width:30px;
 	height: auto;
-}*/
+}
 
 .date {
 	margin: 0.5rem;
