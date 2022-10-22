@@ -20,3 +20,21 @@ document.querySelector(
 ).textContent = `Last Modification: ${document.lastModified}`;
 
 
+
+const meet = datefield.getDay(2);
+
+function myFunction() {
+  const meet = document.querySelector("banner");
+
+  if (meet.style.display === "none") {
+    meet.style.display = "block";
+  } else {
+    meet.style.display = "none";
+  }
+}
+
+
+
+
+
+
