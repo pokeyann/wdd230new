@@ -1,9 +1,19 @@
-@media (min-width: 37.5em) {
-	nav {
-		flex-direction: row;
+@media (min-width: 32.5em) {
+	.navigation {
+		display:flex;
 	}
 	
-	nav a {
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+
+	.navigation a {
+		text-align:center;
 		font-size: 1.1rem;
+	}
+
+	.navigation li:first-child {
+		display:none;
 	}
 }

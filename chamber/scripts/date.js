@@ -1,37 +1,29 @@
-// select the elements to manipulate (output to)
+//header current date
 const datefield = document.querySelector(".date");
-/*const datefieldUK = document.querySelector("aside");*/ // for european/family history format with day first.
-
-// derive the current date using a date object
 const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-	now
-);
-/*const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-	dateStyle: "full"
-}).format(now);*/
-// long, medium, short options ... try them
-
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
 datefield.innerHTML = `<em>${fulldate}</em>`;
-/*datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;*/
 
-document.querySelector(
-	"#lastModified"
-).textContent = `Last Modification: ${document.lastModified}`;
+//footer current date and last modified
+document.querySelector("#lastModified").textContent = 
+  `Last Modification: ${document.lastModified}`;
 
-
-
-const meet = datefield.getDay(2);
-
-function myFunction() {
-  const meet = document.querySelector("banner");
-
-  if (meet.style.display === "none") {
-    meet.style.display = "block";
-  } else {
-    meet.style.display = "none";
-  }
+//banner display on Tuesdays
+const meet = document.querySelector(".banner"); 
+ 
+if(now.getDay() == 2){
+  meet.style.display = "in-line";
 }
+else{
+  meet.style.display = "none";
+}
+
+//hamburger menu
+function toggleMenu() {
+  document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
+
+
 
 
 
