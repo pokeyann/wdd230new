@@ -151,6 +151,9 @@ nav {
 }
 nav button {}
 
+main {
+	display: grid;
+}
 	.event{
 		max-width:960px;
 		padding: 1em;
@@ -163,6 +166,11 @@ nav button {}
 		border: 1px solid #333333;	
 	}
 
+	.weather li {
+		max-width:960px;
+		padding: 1 em;
+	}
+	
 	.join {
 		max-width:960px;
 		padding: 1em;
