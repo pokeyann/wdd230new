@@ -5,7 +5,7 @@
 //Wind Chill Specification Limits: Wind Chill Temperature is officially defined for temperatures at or below
 // 10 °C (50 °F) and wind speeds above 4.8 kilometers per hour (3.0 mph). <=50°F and >3.0mph
 
-const temp = 71;
+const temp = 50;
 const windspeed = 8;
 const windchill = (35.74 + (0.6215*temp)) - (35.75*(windspeed**0.16)) + (0.4275*temp*(windspeed**0.16));
 
