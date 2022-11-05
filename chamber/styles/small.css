@@ -217,7 +217,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
 
-.discover figure {
+.discover img {
 grid-column: 1;
 padding: .5em;
 margin: .5em;
