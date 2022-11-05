@@ -1,5 +1,13 @@
-img {
+main {
   display: flex;
   align-items: center;
+}
 
+img[data-src] {
+  filter: blur(0.4em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
 }
