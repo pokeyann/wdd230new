@@ -216,4 +216,10 @@ main {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
+.discover picture {
+grid-column: 1;
+border: 1px solid #333333;
+padding: 1em;
+margin: 1em;
+}
 
