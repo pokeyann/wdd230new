@@ -217,7 +217,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
 
-.discover figure {
+.discover picture {
 grid-column: 1;
 padding: .5em;
 margin: .5em;
@@ -226,10 +226,5 @@ margin: .5em;
 .hover:hover {
 box-shadow: 0 0 50px #5c5c5c;
 }
-/*.discover img {
-	filter: blur(0.4em);
-}
-.discover img[loading] {
-	transition: filter 0.5s;
-}*/
+
 
