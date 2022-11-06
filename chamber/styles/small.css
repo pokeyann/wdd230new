@@ -228,9 +228,6 @@ box-shadow: 0 0 50px #5c5c5c;
 }
 
 .facts {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-column: 2;
 	padding: .5em;
 	margin: .5em;
 	border: 1px solid #5c5c5c;
