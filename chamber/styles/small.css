@@ -235,6 +235,8 @@ main {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 border: 1px solid #5c5c5c;
+margin: 8px 0 8px 0;
+
 }
 
 .discover figure {
