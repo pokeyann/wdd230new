@@ -1,4 +1,4 @@
-table {
+/*table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
@@ -28,9 +28,9 @@ td {
 
 tbody tr:nth-child(odd){
   background-color: var(--zebra);
-}
+}*/
 
-/*
+
 :root {
 	--back: hsla(150, 50%, 30%, 1);
   --back2: hsla(150, 50%, 30%, .5);
@@ -78,4 +78,4 @@ td {
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
 }
-*/
+
