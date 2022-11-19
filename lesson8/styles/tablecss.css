@@ -1,45 +1,11 @@
-table {
-	width: 100%;
-	border-collapse: collapse;
-	border: 2px solid black;
-}
-
-caption {
-	caption-side: bottom;
-}
-
-tr:first-child th,
-.highlight {
-	background-color: aliceblue;
-}
-
-th,
-td {
-	padding: 10px;
-	border: 1px solid black
-}
-
-th {
-	text-align: center;
-}
-
-td {
-	text-align: center;
-}
-
-tbody tr:nth-child(odd) {
-	background-color: aqua;
-}
-
-/*
 :root {
 	--back: hsla(150, 50%, 30%, 1);
-  --back2: hsla(150, 50%, 30%, .5);
-  --foredark: hsla(0,0%,10%,1);
-	--forelight: hsla(0,0%,100%,1);
-	--border: hsl(0,0%,20%);
-	--borderlight: hsl(0,0%,33%);
-	--shadow: hsl(0,0%,50%);
+	--back2: hsla(150, 50%, 30%, .5);
+	--foredark: hsla(0, 0%, 10%, 1);
+	--forelight: hsla(0, 0%, 100%, 1);
+	--border: hsl(0, 0%, 20%);
+	--borderlight: hsl(0, 0%, 33%);
+	--shadow: hsl(0, 0%, 50%);
 	--zebra: hsl(0, 0%, 93%, 1);
 }
 
@@ -51,18 +17,20 @@ table {
 }
 
 caption {
-  padding: 10px;
-  caption-side: bottom;
+	padding: 10px;
+	caption-side: bottom;
 	color: var(--back);
 	font-size: .85rem;
 }
 
-tr:first-child th, .highlight {
+tr:first-child th,
+.highlight {
 	background-color: var(--back);
 	color: var(--forelight);
 }
 
-th, td {
+th,
+td {
 	padding: 7px 15px;
 	border: 1px solid var(--borderlight);
 }
@@ -79,4 +47,39 @@ td {
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
 }
-*/
+
+
+/*table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+
+caption {
+	caption-side: bottom;
+}
+
+tr:first-child th, .highlight {
+	background-color:blue;
+}
+
+th,td {
+	padding: 10px;
+	border: 1px solid black
+}
+
+th {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: aqua;
+}
+
+tbody tr:nth-child(even) {
+	background-color:azure;
+}*/
