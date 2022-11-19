@@ -18,21 +18,9 @@ else{
   meet.style.display = "none";
 }
 
+console.log("This workds")
+
 //hamburger menu
 function toggleMenu() {
   document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
-
-//discover page timestamp in footer
-const todayDisplay = document.querySelector(".today");
-
-todayDisplay.textContent = Date.now();
-
-
-
-
-
-
-
-
-

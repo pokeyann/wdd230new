@@ -229,7 +229,8 @@ main {
 	height: auto;
 }
 
-/* discover page */
+/* ---------- discover page ---------- */
+
 .discover {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
