@@ -78,9 +78,16 @@
             >Business Name/Title <input type="text" name="title"
           /></label>
           <label class="info"
-            >Business Position <input type="text" name="business"
+            >Business Position
+            <input
+              type="text"
+              name="business"
+              pattern="^[a-zA-Z\-\s$]{7,}"
+              minlength="7"
           /></label>
         </fieldset>
+
+        <!-- /^([a-zA-Z\-\s]$){7,} regexp-->
 
         <fieldset>
           <legend>Membership</legend>
