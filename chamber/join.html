@@ -56,9 +56,13 @@
       <form method="get" action="thankyou.html">
         <fieldset>
           <legend>Join Rocket City Harvest Chamber of Commerce</legend>
-          <label>First Name* <input type="text" name="fname" required /></label>
-          <label>Last Name* <input type="text" name="fname" required /></label>
-          <label
+          <label class="info"
+            >First Name* <input type="text" name="fname" required
+          /></label>
+          <label class="info"
+            >Last Name* <input type="text" name="fname" required
+          /></label>
+          <label class="info"
             >Email*
             <input
               type="email"
@@ -66,22 +70,103 @@
               placeholder="someone@gmail.com"
               required
           /></label>
-          <label
+          <label class="info"
             >Cell Phone Number
             <input type="tel" name="phone" placeholder="1235551234"
           /></label>
-          <label>Business Name/Title <input type="text" name="title" /></label>
-          <label>Business Position <input type="text" name="business" /></label>
+          <label class="info"
+            >Business Name/Title <input type="text" name="title"
+          /></label>
+          <label class="info"
+            >Business Position <input type="text" name="business"
+          /></label>
         </fieldset>
 
         <fieldset>
           <legend>Membership</legend>
-          <label>NP Membership</label>
-          <label>Bronze Membership</label>
-          <label>Silver Membership</label>
-          <label>Gold Membership</label>
+          <label class="member"
+            ><input type="radio" name="join" value="NP Membership" /> Non Profit
+            Membership</label
+          >
+          <label class="member"
+            ><input type="radio" name="join" value="Bronze Membership" /> Bronze
+            Membership</label
+          >
+          <label class="member"
+            ><input type="radio" name="join" value="Silver Membership" /> Silver
+            Membership</label
+          >
+          <label class="member"
+            ><input type="radio" name="join" value="Gold Membership" /> Gold
+            Membership</label
+          >
         </fieldset>
+
+        <fieldset>
+          <legend>Business Description</legend>
+          <label class="descr">
+            <textarea
+              id="description"
+              name="description"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </label>
+        </fieldset>
+
+        <label class="thankyou"
+          ><a href="thankyou.html"></a>
+          <input type="submit" value="Submit Membership Form" class="submitBtn"
+        /></label>
       </form>
+
+      <div class="npmember">
+        <ul>
+          <h4>NP Member</h4>
+          <li>$500 Annually</li>
+          <li>Participate in annual membership engagement consultation</li>
+          <li>Attend member networking and business events (4 attendees)</li>
+          <li>Inclusion in Member Directory on website</li>
+          <li>Receive and offer member to member discounts and services</li>
+          <li>Access to social media channels (up to 4)</li>
+        </ul>
+      </div>
+      <div class="bronzemember">
+        <ul>
+          <h4>Bronze Member</h4>
+          <li>$1,000 Annually</li>
+          <li>All benefits of NP Member plus...</li>
+          <li>Attend member networking and business events (4 attendees)</li>
+          <li>Access to social media channels (up to 6)</li>
+          <li>Submit to showcase magazine (1)</li>
+          <li>Eligible to serve on councils and committees</li>
+          <li>Targeted networking, access to premier lunches</li>
+        </ul>
+      </div>
+      <div class="silvermember">
+        <ul>
+          <h4>Silver Member</h4>
+          <li>$1,500 Annually</li>
+          <li>All benefits of Bronze Member plus...</li>
+          <li>Attend member networking and business events (10 attendees)</li>
+          <li>Access to social media channels (up to 8)</li>
+          <li>Submit to showcase magazine (2)</li>
+          <li>Invitations to legislative events</li>
+          <li>Attend Board of Directors and VIP events</li>
+        </ul>
+      </div>
+      <div class="goldmember">
+        <ul>
+          <h4>Gold Member</h4>
+          <li>$2,000 Annually</li>
+          <li>All benefits of Silver Member plus...</li>
+          <li>Attend member networking and business events (15 attendees)</li>
+          <li>Access to social media channels (up to 10)</li>
+          <li>Submit to showcase magazine (3)</li>
+          <li>Ongoing government relations and advocacy support</li>
+          <li>Eligible for nomination to Board of Directors</li>
+        </ul>
+      </div>
     </main>
 
     <footer>
@@ -114,6 +199,6 @@
     </footer>
 
     <script src="scripts/date.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/lastVisit.js"></script>
   </body>
 </html>

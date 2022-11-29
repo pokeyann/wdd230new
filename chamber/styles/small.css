@@ -1,4 +1,7 @@
 @charset "UTF-8"; /* not necessary */
+@media (min-width: 20em) {
+
+}
 
 /* Color Pallette Light Cornflower Blue #8ecae6, Blue Green #219ebc, Prussian Blue #023047, Selective Yellow #ffb703, 
 Tangerine #fb8500, Jet #333333, Davy Grey #5c5c5c, Culutured #f5f5f5, Light Grey #cccccc */
@@ -269,3 +272,100 @@ box-shadow: 0 0 50px #5c5c5c;
 	border: 1px solid #5c5c5c
 }
 
+/* ---------- join page ---------- */
+
+form fieldset {
+	margin: 2rem 0;
+	border: 1px solid #5c5c5c;
+	padding: .5rem 2%;
+	margin: none;
+ }
+
+ form legend {
+	color:#333333;
+	margin: 0 1rem;
+	padding: 0 .5rem;
+ }
+
+ form label.info, label.member{
+	display: block;
+	padding-top: 1rem;
+	color:#333333;
+	font-size: .8rem;
+ }
+
+ form label.info input {
+	display: block;
+	font-size: 1rem;
+	border: 1px solid #5c5c5c;
+	padding: .75rem;
+	color:#023047;
+	width: 100%;
+	max-width: 20rem;
+	background-color:#cccccc
+ }
+
+ form label.member {
+	display: block;
+	padding: .75 rem 0;
+	color:#023047;
+ }
+
+ form input.submitBtn {
+	border: none;
+	background-color:#5c5c5c;
+	color:#f5f5f5;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 2%;
+	width: 96%;
+	max-width: 20rem;
+ }
+
+ form label.info input:required {
+	border-left: #fb8500 solid 5px;
+ }
+
+ form label.info input:required:valid {
+	border-left: #023047 solid 5px;
+ }
+
+ 
+ .npmember {
+	grid-column: 2;
+	grid-row: 1;
+
+	padding: 1em;
+	border: 1px solid #333333;	
+	
+ }
+
+ .bronzemember {
+	grid-column: 2;
+	grid-row: 2;
+
+	padding: 1em;
+	border: 1px solid #333333;	
+	
+ }
+
+ .silvermember {
+	grid-column: 2;
+	grid-row: 3;
+	padding: 1em;
+	border: 1px solid #333333;	
+	
+ }
+
+ .goldmember {
+	grid-column: 2;
+	grid-row: 4;
+	padding: 1em;
+	border: 1px solid #333333;	
+	
+ }
+
+ /* ---------- thankyou.html ---------- */
+
+ .thankyou {
+	border:#5c5c5c
+ }
