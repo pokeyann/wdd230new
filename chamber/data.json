@@ -1,0 +1,93 @@
+{
+  "company": [
+    {
+    "imageurl": "images/NicePng_fake_png_1934139.jpg",
+    "name": "Fast Banana Viral Marketing",
+    "address": "333 Splits Lane, Harvest, AL 35749",
+    "phone": "(555) 226-2626",
+    "email": "bananaviralmarketing@bananabunch.com",
+    "url": "https://www.bvm.com",
+    "membership": "Gold"
+  },
+
+  {
+    "imageurl": "image",
+    "name": "example company",
+    "address": "123 here",
+    "phone": "123-456-7890",
+    "email": "sendhere@here.com",
+    "url": "1234.com",
+    "membership": "NP, Bronze, Silver, or Gold"
+  },
+
+  {
+    "imageurl": "image",
+    "name": "example company",
+    "address": "123 here",
+    "phone": "123-456-7890",
+    "email": "sendhere@here.com",
+    "url": "1234.com",
+    "membership": "NP, Bronze, Silver, or Gold"
+  },
+
+  {
+    "imageurl": "image",
+    "name": "example company",
+    "address": "123 here",
+    "phone": "123-456-7890",
+    "email": "sendhere@here.com",
+    "url": "1234.com",
+    "membership": "NP, Bronze, Silver, or Gold"
+  },
+
+  {
+    "imageurl": "image",
+    "name": "example company",
+    "address": "123 here",
+    "phone": "123-456-7890",
+    "email": "sendhere@here.com",
+    "url": "1234.com",
+    "membership": "NP, Bronze, Silver, or Gold"
+  },
+
+  {
+    "imageurl": "image",
+    "name": "example company",
+    "address": "123 here",
+    "phone": "123-456-7890",
+    "email": "sendhere@here.com",
+    "url": "1234.com",
+    "membership": "NP, Bronze, Silver, or Gold"
+  },
+
+  {
+    "imageurl": "image",
+    "name": "example company",
+    "address": "123 here",
+    "phone": "123-456-7890",
+    "email": "sendhere@here.com",
+    "url": "1234.com",
+    "membership": "NP, Bronze, Silver, or Gold"
+  },
+
+  {
+    "imageurl": "image",
+    "name": "example company",
+    "address": "123 here",
+    "phone": "123-456-7890",
+    "email": "sendhere@here.com",
+    "url": "1234.com",
+    "membership": "NP, Bronze, Silver, or Gold"
+  },
+
+  {
+    "imageurl": "image",
+    "name": "example company",
+    "address": "123 here",
+    "phone": "123-456-7890",
+    "email": "sendhere@here.com",
+    "url": "1234.com",
+    "membership": "NP, Bronze, Silver, or Gold"
+  }
+  ]
+}
