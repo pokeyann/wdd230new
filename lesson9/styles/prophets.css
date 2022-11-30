@@ -1,0 +1,41 @@
+
+h1 {
+  text-align: center;
+  margin: 2px;
+}
+
+h2 {
+  text-align: center;
+  margin: 2px;
+}
+
+h3 {
+  text-align: center;
+  margin: 2px;
+}
+
+h4 {
+  text-align: center;
+  margin: 2px;
+}
+
+main {
+  justify-content: center;
+  text-align: center;
+  background-color: lightgray;
+  box-shadow: 0 0 50px black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+  background-color: dimgray;
+  border: solid darkblue 1px;
+  padding: 5px;
+  margin: 5px;
+}
