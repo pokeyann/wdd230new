@@ -42,3 +42,4 @@ function displayProphets(prophet) {
 
 let data = getProphets();
 displayProphets(data);
+
